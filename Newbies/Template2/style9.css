@@ -1,0 +1,425 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset CSS */
+
+
+
+/*
+ =========================
+ =========================
+*/
+html {
+	background-color: #EDEDED;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	width: 1000px;
+	background-color: #ffffff;
+	box-shadow: 4px 6px 18px -2px rgba(105,104,105,1);
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+ =========================
+ TYPOGRAPHY
+ =========================
+*/
+h1 {
+	font-size: 60px;
+} 
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+h5 {
+	font-size: 28px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 22px;
+}
+
+/*
+ ========================
+ BUTTONS
+ ========================
+*/
+
+button:hover {
+	cursor: pointer;
+}
+
+.sign {
+	background-color: #ffffff;
+	color: black;
+	border-radius: 10px;
+	border: 0;
+	box-shadow: 0;
+	font-size: 28px;
+	height: 60px;
+	width: 240px;
+	margin-right: 15px;
+	transition: 0.5s;
+} 
+
+.learn {
+	background-color: transparent;
+	color: #ffffff;
+	border:2px solid #ffffff;
+	border-radius: 10px;
+	font-size: 28px;
+	transition: 0.7s;
+	height: 60px;
+	width: 240px;
+}
+
+.learn:hover {
+	border: 2px solid orange;
+	color: orange;
+}
+
+.sign:hover {
+	border: 2px solid #ffffff;
+	background-color: rgba(215, 215, 215, 0.2);
+	color: #ffffff;
+}
+
+
+
+/*
+=============================
+HEADER 
+=============================
+*/
+
+header {
+	background-image: url(banner.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	height: 700px;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+nav {
+	float: right;
+	margin-top: 20px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	font-size: 28px;
+	padding: 10px 20px;
+}
+
+nav > ul > li:last-child {
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+nav > ul > li:last-child:hover {
+background-color: rgba(215, 215, 215, 0.2);
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+#title {
+	text-align: center;
+	padding-top: 150px;
+}
+
+#title > h1,
+#title > h5 {
+	padding-bottom: 30px;
+}
+
+
+/*
+ ==============================
+ FIRTS SECTION
+ ==============================
+*/
+.first-section {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: 150px;
+	text-align: center;
+}
+
+.first-section > h2 {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.first-section > h5 {
+	padding-bottom: 70px;
+	padding-top: 20px;
+	line-height: 50px;
+
+}
+
+
+/*
+======================
+SECOND SECTION 
+======================
+*/
+
+.second-section {
+	position: relative;
+	bottom: 100px;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.second-section .col-1-2 {
+	text-align: center;
+	padding: 30px;
+	float: left;
+}
+
+.col-1-2 > h3 {
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+
+.col-1-2 > p {
+	padding-bottom: 20px;
+	line-height: 40px;
+}
+
+.col-1-2:first-child,
+.col-1-2:nth-child(3) {
+	border-right: 1px solid #D9D5D2;
+}
+
+.col-1-2:first-child,
+.col-1-2:nth-child(2) {
+	border-bottom: 1px solid #D9D5D2;
+
+}
+
+.icon {
+	padding: 10px;
+	border: 1px solid orange;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+/*
+ =============================
+ THIRD SECTION
+ =============================
+*/
+.img {
+ 	width: 100%;
+ 	height: 250px;
+ 	border-radius: 10px 10px 0 0;
+ }
+
+.third-section {
+	width: 1000px;
+	position: relative;
+	bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col {
+	width: 48%;
+	background-color: #ffffff;
+	box-shadow: 4px 6px 18px -2px rgba(105,104,105,1);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.col-left {
+	float: left;
+}
+
+.col-right {
+	float: right;
+}
+
+.col > h3 {
+	padding-top: 40px;
+}
+
+.col > p {
+	padding: 40px 30px;
+	line-height: 40px;
+	
+}
+
+.col > .learn {
+	border: 1px solid black;
+	color: black;
+	transition: 0.8s;
+	margin-bottom: 40px;
+	height: 50px;
+	width: 170px;
+	font-size: 16px;
+}
+
+.col > .learn:hover {
+	border: 1px solid orange;
+	color: orange;
+}
+
+/*
+ ======================
+ SECTION WITH INPUT
+ ======================
+*/
+
+.input_section {
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	background: #FFB93F;
+	margin-top: 50px;
+	color: #ffffff;
+}
+
+.input_section > .sign {
+	color: orange;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.input_section > .sign:hover {
+	color: #ffffff;
+}
+
+.input_section > h3 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.input_section > p {
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+
+input {
+	width: 300px;
+	height: 40px;
+	border: 2px solid darkorange;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-right: 5px;
+	}
+
+
+
+/*
+ ====================================
+ FOOTER
+ ====================================
+*/
+footer ol {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	color: #B7B1B1;
+	text-align: center;
+	margin-top: 40px;
+} 
+
+footer li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer li:first-child {
+	border-right: 1px solid #B7B1B1;
+}
+
+footer li:nth-child(2) {
+	border-right: 1px solid #B7B1B1;
+} 	
